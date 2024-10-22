@@ -1,0 +1,22 @@
+# Accept a number from the user
+n1 = int(input("Enter a number: "))
+# Print the multiplication table
+print(f"Multiplication table of {n1}:")
+for x in range(1, 11):
+    print(f"{x} x {n1} = {x * n1}")
+
+
+o/p:
+Enter a number: 2
+Multiplication table of 2:
+1 x 2 = 2
+2 x 2 = 4
+3 x 2 = 6
+4 x 2 = 8
+5 x 2 = 10
+6 x 2 = 12
+7 x 2 = 14
+8 x 2 = 16
+9 x 2 = 18
+10 x 2 = 20
+
