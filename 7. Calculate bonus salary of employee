@@ -1,0 +1,19 @@
+# Calc bonus amount for emps
+# salary>=100000 => bonus 5%
+# salary<100000 and >=50000, bonus 10%
+# salary<50000, bonus 20%
+# expected o/p => For empid 111, salary is Rs. 99999 and bonus is Rs. 99999
+
+empid = input("Enter empid: ")
+salary = int(input("Enter your salary: "))
+
+if salary>=100000:
+    bonus = salary * 0.05
+elif salary>=50000:
+    bonus = salary * 0.1
+elif salary>=25000:
+    bonus = salary * 0.15
+else:
+    bonus = salary * 0.2
+
+print(f"For empid {empid}, salary is Rs. {salary} and bonus is Rs. {bonus}")
