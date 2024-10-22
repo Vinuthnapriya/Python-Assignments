@@ -16,3 +16,13 @@ elif rainbow=="R" or rainbow=="r":
     print("red")
 else:
     print("not valid letter")
+
+
+o/p:
+enter your colour from V I B G Y O R: b
+blue
+
+or
+
+enter your colour from V I B G Y O R: t
+not valid letter
