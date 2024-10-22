@@ -1,0 +1,18 @@
+rainbow=input("enter your colour from V I B G Y O R: ")
+# if("V" or "I" or "B" or "G" or "Y" or "O" or "R"):
+if rainbow=="V" or rainbow=="v":
+    print("violet")
+elif rainbow=="I" or rainbow=="i":
+    print("Indigo")
+elif rainbow=="B" or rainbow== "b":
+    print("blue")
+elif rainbow=="G" or rainbow=="g":
+    print("green")
+elif rainbow=="Y" or rainbow=="y":
+    print("yellow")
+elif rainbow=="O" or rainbow=="o":
+    print("orange")
+elif rainbow=="R" or rainbow=="r":
+    print("red")
+else:
+    print("not valid letter")
