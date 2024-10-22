@@ -1,0 +1,24 @@
+#accept name nd marks of a student, in 6 subjcts, nd calculate % of the marks
+student_name=input("What is your name: ")
+print(student_name)
+english=int(input("Enter your English marks:"))
+physics=int(input("Enter your Physics marks:"))
+Chem=int(input(" Enter your Chem arks:"))
+dsa=int(input("Enter your DSA marks:"))
+c=int(input("Enter your C marks:"))
+python=int(input("Enter your Python marks:"))
+max_marks=600
+total_marks=int(english+physics+Chem+dsa+c+python)
+print(total_marks/max_marks*100)
+
+
+o/p:
+What is your name:  Priya
+ Priya
+Enter your English marks:100
+Enter your Physics marks:90
+ Enter your Chem arks:89
+Enter your DSA marks:100
+Enter your C marks:90
+Enter your Python marks:100
+94.83333333333334
