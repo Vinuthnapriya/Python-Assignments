@@ -1,0 +1,15 @@
+#compound interest
+#p*(1+r/100)power n
+p=int(input("Enter principal value: "))
+r=int(input("Enter rate of interest value: "))
+n=int(input("Enter tenure value: "))
+compound_interest=p*(1+r/100)**n
+print("The Compound interest is ",compound_interest)
+
+
+o/P:
+Enter principal value: 2
+Enter rate of interest value: 3
+Enter tenure value: 2
+The Compound interest is  2.1218
+
