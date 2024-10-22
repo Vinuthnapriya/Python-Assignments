@@ -1,0 +1,43 @@
+# 1. Electricity bill generator
+# I/P -> # Units (must be a positive number only)     200*20+40
+# If # units is beyond 400, display that it is a commercial connection else calculate the electricity bill amount to be paid as follows.
+# service fee fixed at Rs.100/-
+#units <= 100 - only service fee to be paid
+#units crosses 100 but <= 200 -> Rs.10 per unit
+#units crosses 200 but <= 300 -> first 200 units charged at Rs.10/- per unit and rest of the units at Rs.20 per unit
+#units crosses 30 but <= 400 -> first 200 units charged at Rs.10/- per unit and next 100 units at Rs.20 per unit and remaining at Rs.30/- per unit
+# Add the service fee to the bill amount
+# Constants
+service_fee = 100
+
+# Input: number of units
+units = int(input("Enter the number of units: "))
+
+# Validate input
+if units <= 0:
+    print("Not valid. Please enter a positive number.")
+else:
+    # Check for commercial connection
+    if units > 400:
+        print("It is a Commercial Connection")
+    else:
+        # Initialize the total bill with the service fee
+        total_bill = service_fee
+
+        # Calculate the bill based on the number of units
+        if units <= 100:
+            total_bill += 0  # Only service fee
+        elif units <= 200:
+            total_bill += (units - 100) * 10  # Rs.10 per unit for units above 100
+        elif units <= 300:
+            total_bill += (100 * 10) + ((units - 200) * 20)  # First 200 units at Rs.10, next at Rs.20
+        elif units <= 400:
+            total_bill += (100 * 10) + (100 * 20) + ((units - 300) * 30)  # First 200 at Rs.10, next 100 at Rs.20, rest at Rs.30
+
+        # Output the total bill
+        print(f"Your service bill is: Rs.{total_bill}")
+
+
+o/p:
+Enter the number of units: 236
+Your service bill is: Rs.1820
