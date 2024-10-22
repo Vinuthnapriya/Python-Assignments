@@ -1,0 +1,15 @@
+#to accept the length, breath of rectangle
+#and display area nd perimeter in cm
+length=int(input("enter the length of a rectangle: "))
+breadth=int(input("enter the breadth of a rectangle: "))
+area=length*breadth
+perimeter=2*(length+breadth)
+print(area ,"in cm")
+print(perimeter ,"in cm^2")
+
+
+o/p:
+enter the length of a rectangle: 2
+enter the breadth of a rectangle: 2
+4 in cm
+8 in cm^2
