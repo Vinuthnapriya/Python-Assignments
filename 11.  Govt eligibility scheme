@@ -1,0 +1,41 @@
+ 3. Govt scheme eligibility
+#
+# Accept the name and age of the person (age must be between 1 and 150 only else an appropriate error message for the invalid age)
+# If age is valid, then display hi message to the person's name and identify the scheme that the person is eligible for as follows
+# age>=60 - O/P should be You are a senior citizen aged N years old eligible for Pension scheme
+# age >= 35 - .... Middle aged ... Business Loan
+# age >= 25 - .... Youth ... Govt job Employment scheme
+# age >= 15 - .. Intern - Education loan for higher studies
+# age >= 3 - ... Student - Scholarship
+# age below 3 year, no scheme available at the moment
+
+name=input("What is your name ")
+age=int(input("What is your age "))
+if(age>0):
+    if age>=1 and age<=150:
+        print(f"hi {name}")
+    # else:
+    #     print("an inappropriate error message for the invalid age")
+    if  age>=60:
+        print(f"You are a senior citizen aged {age} years old and eligible for Pension scheme")
+    elif age>=35:
+        print(f"You are a middle aged {age} years old and eligible for Business loan")
+    elif age>=25:
+        print(f"You are a youth {age} years old and eligible for Govt job employment scheme")
+    elif age>=15:
+        print(f"You are a intern {age} years old and eligible for Education loan for higher studies")
+    elif age>=3:
+        print(f"You are a student {age} years old and eligible for scholarship")
+    elif age<=3:
+        print("no scheme applicable at the moment")
+    else:
+        print("an inappropriate error message for the invalid age")
+else:
+    print("not a valid age, age must be between 1 to 150 only")
+
+
+o/p:
+What is your name Priya
+What is your age 20
+hi Priya
+You are a intern 20 years old and eligible for Education loan for higher studies
