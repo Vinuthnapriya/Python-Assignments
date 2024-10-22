@@ -1,0 +1,10 @@
+#accept t in celcius nd convert to farenheit then display
+c=int(input("Enter ur temperature in Celcius: "))
+f=(c*(9/5))+32
+print("ur temperture from `c to `f is ",f)
+
+
+o/p:
+Enter ur temperature in Celcius: 23
+ur temperture from `c to `f is  73.4
+
