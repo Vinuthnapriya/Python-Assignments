@@ -1,0 +1,27 @@
+#basic calculator
+# num1=int(input("Enter num1: "))
+# num2=int(input("Enter num2: "))
+# add=num1+num2
+# sub=num1-num2
+# multi=num1*num2
+# div=num1/num2
+# power=(num1**num2)
+# operation=(input("Please enter your operation (add,sub,multi,div,power): "))
+# if operation=="add":
+#     add = num1 + num2
+#     print(f"The addition operation for {num1} and {num2} is: {add}")
+# elif operation=="sub":
+#     sub = num1 - num2
+#     print(f"The subtraction operation for {num1} and {num2} is: {sub}")
+# elif operation=="multi":
+#     multi=num1*num2
+#     print(f"The multiplication operation for {num1} and {num2} is: {multi}")
+# elif operation=="div":
+#     div=num1/num2
+#     print(f"The division operation for {num1} and {num2} is: {div}")
+# elif operation=="power":
+#     power=num1**num2
+#     print(f"The division operation for {num1} and {num2} is: {power}")
+# else:
+#     print("You have entered an invalid operation")
+#     print("Please try again")
