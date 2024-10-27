@@ -1,0 +1,26 @@
+# #BMI Calculator
+#calculate BMI , formula= weight/(height**2) by using round() function
+# weight=int(input(f"enter your weight in kgs:  "))
+# height=float(input(f"enter your height in m:  "))
+# bmi=float(weight/(height*height))
+# print("Your BMI is:",(round(bmi,2)))
+# if bmi<16.0:
+#     print("You belong to the category of Underweight(Severe thinness)")
+# elif 16.0<=bmi<=16.9:
+#     print("You belong to the category of Underweight(Moderate thinness)")
+# elif 17.0<=bmi<=18.4:
+#     print("You belong to the category of Underweight(Mild thinness)")
+# elif 18.5<=bmi<=24.9:
+#     print("You belong to the category of Normal range")
+# elif 25.0<=bmi<=29.9:
+#     print("You belong to the category of Overweight(Pre-Obese)")
+# elif 30.0<=bmi<=34.9:
+#     print("You belong to the category of Obese(Class |)")
+# elif 35.0<=bmi<=39.9:
+#     print("You belong to the category of Obese(Class ||)")
+# elif bmi>=40.0:
+#     print("You belong to the category of Obese(Class |||) ")
+# else:
+#     print("You should get enrolled into gym and make proper plans for your diet ")
+#     print("And consult a doctor as soon as possible")
+#
