@@ -1,0 +1,9 @@
+#swapping of two numbers
+ a=int(input("enter num1: "))
+ b=int(input("enter num2: "))
+ temp=a
+ a=b
+ b=temp
+
+ print(f"after swapping a is {a}")
+print(f"after swapping b is {b}")
